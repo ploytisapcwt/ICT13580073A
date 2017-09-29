@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:local="clr-namespace:ICT13580073A"
+	x:Class="ICT13580073A.ICT13580073APage"
+
+
+    BackgroundColor="Teal"
+    Padding="20">
+
+    <StackLayout  
+        BackgroundColor="Aqua"
+        Orientation="Vertical"
+       >
+
+        <Label 
+
+        Text="Hello World Hello World Hello World Hello World Hello World Hello World "
+        BackgroundColor="#dfdfdf"
+        LineBreakMode="WordWrap"
+        x:Name= "firstNameLabel"/>
+
+        <Label
+        Text=" Ploychid "
+        BackgroundColor="Fuchsia"
+        x:Name="lastNameLabel"/>
+
+        <Entry
+        Placeholder="กรุณากรอกชื่อ"
+        Keyboard="Text"
+        x:Name="firstNameEntry"/>
+
+        <Button
+        Text="OK"
+        BackgroundColor="Silver"
+        x:Name="okButton"/>
+
+        <DatePicker/>
+
+        <TimePicker/>
+
+        <Picker
+        x:Name="genderPicker"
+        Title="กรุณาเลือกเพศ"/>
+
+        <Label
+        x:Name=" valueLabel"/>
+
+        <Slider
+        Maximum="100"
+        Minimum="0"
+        Value="50"
+        x:Name="mySlider"/>
+
+        <Stepper
+        Maximum="10"
+        Minimum="0"
+        Value="0"
+        Increment="1"
+        x:Name="myStepper"/>
+
+        <Switch
+        IsToggled="true"/>
+
+        <Image
+        Source="DSCN7717-1.jpg"
+        HeightRequest="100"/>
+
+        <WebView
+        Source="https://youtube.com/"
+        HeightRequest="120"/>
+
+        
+       
+
+    </StackLayout>
+
+</ContentPage>
