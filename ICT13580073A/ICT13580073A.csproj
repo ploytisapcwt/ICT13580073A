@@ -30,9 +30,6 @@
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
     <EmbeddedResource Include="ICT13580073APage.xaml" />
-    <EmbeddedResource Include="AbsolutePage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="GridPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -48,15 +45,6 @@
     <EmbeddedResource Include="NavPage3.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="TabPage1.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TabPage2.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TabPage3.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="StackPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -69,6 +57,18 @@
     <EmbeddedResource Include="MyPage3.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="AdsolutePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabPage01.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabPage02.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabPage03.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -78,9 +78,6 @@
       <DependentUpon>ICT13580073APage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="AbsolutePage.xaml.cs">
-      <DependentUpon>AbsolutePage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="GridPage.xaml.cs">
       <DependentUpon>GridPage.xaml</DependentUpon>
     </Compile>
@@ -96,15 +93,6 @@
     <Compile Include="NavPage3.xaml.cs">
       <DependentUpon>NavPage3.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TabPage1.xaml.cs">
-      <DependentUpon>TabPage1.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="TabPage2.xaml.cs">
-      <DependentUpon>TabPage2.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="TabPage3.xaml.cs">
-      <DependentUpon>TabPage3.xaml</DependentUpon>
-    </Compile>
     <Compile Include="StackPage.xaml.cs">
       <DependentUpon>StackPage.xaml</DependentUpon>
     </Compile>
@@ -116,6 +104,18 @@
     </Compile>
     <Compile Include="MyPage3.xaml.cs">
       <DependentUpon>MyPage3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdsolutePage.xaml.cs">
+      <DependentUpon>AdsolutePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TabPage01.xaml.cs">
+      <DependentUpon>TabPage01.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TabPage02.xaml.cs">
+      <DependentUpon>TabPage02.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TabPage03.xaml.cs">
+      <DependentUpon>TabPage03.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

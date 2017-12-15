@@ -10,6 +10,12 @@ namespace ICT13580073A
         public MyPage3()
         {
             InitializeComponent();
-        }
-    }
+			backButton.Clicked += BackButton_Clicked;
+		}
+
+		void BackButton_Clicked(object sender, EventArgs e)
+		{
+			Navigation.PopModalAsync();
+		}
+	}
 }

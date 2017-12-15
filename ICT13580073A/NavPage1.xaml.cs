@@ -14,7 +14,8 @@ namespace ICT13580073A
         }
 
         void NextButton_Clicked(object sender, EventArgs e)
-        { Navigation.PushAsync(new NavPage2());
+        { 
+            Navigation.PushAsync(new NavPage2());
         }
     }
 }

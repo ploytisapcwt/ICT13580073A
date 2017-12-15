@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace ICT13580073A
 {
-    public partial class TabPage3 : ContentPage
+    public partial class TabPage02 : ContentPage
     {
-        public TabPage3()
+        public TabPage02()
         {
             InitializeComponent();
         }

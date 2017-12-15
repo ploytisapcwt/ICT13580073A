@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace ICT13580073A
 {
-    public partial class AbsolutePage : ContentPage
+    public partial class AdsolutePage : ContentPage
     {
-        public AbsolutePage()
+        public AdsolutePage()
         {
             InitializeComponent();
         }

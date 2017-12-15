@@ -1,8 +1,100 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage
 	xmlns="http://xamarin.com/schemas/2014/forms"
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-	x:Class="ICT13580073A.StackPage">
-	<ContentPage.Content>
-	</ContentPage.Content>
-</ContentPage>
+	x:Class="ICT13580073A.StackPage"
+    BackgroundColor="Fuchsia">
+
+    <ScrollView>
+    <StackLayout
+        BackgroundColor="Green"
+        Orientation="Vertical">
+
+        <Button
+            Text="Button"
+            BackgroundColor="Silver"
+            HorizontalOptions="Center"
+            WidthRequest="100"
+            HeightRequest="100" />
+
+        <Button
+            Text="Button"
+            BackgroundColor="Navy" />
+
+        <Button
+            Text="Button"
+            BackgroundColor="Blue" />
+
+        <ScrollView
+            Orientation="Horizontal">
+
+        <StackLayout
+            BackgroundColor="Green"
+            Orientation="Horizontal"
+            HeightRequest="100">
+
+         <Button
+            Text="Buton"
+            BackgroundColor="Gray"
+            WidthRequest="100"
+            />
+
+         <Button
+            Text="Buton"
+            BackgroundColor="Yellow"
+            WidthRequest="100"
+            />
+
+         <Button
+            Text="Buton"
+            BackgroundColor="Blue"
+            WidthRequest="100"
+            />
+
+          <Button
+            Text="Buton"
+            BackgroundColor="Maroon"
+            WidthRequest="100"
+            />
+
+          <Button
+            Text="Buton"
+            BackgroundColor="Fuchsia"
+            WidthRequest="100"
+            />
+
+          <Button
+            Text="Buton"
+            BackgroundColor="Olive"
+            WidthRequest="100"
+            />
+
+        </StackLayout>
+        </ScrollView>
+
+        <Entry
+            Placeholder="Input taxt here"/>
+        <Entry
+            Placeholder="Input taxt here"/>
+        <Entry
+            Placeholder="Input taxt here"/>
+        <Entry
+            Placeholder="Input taxt here"/>
+        <Entry
+            Placeholder="Input taxt here"/>
+        <Entry
+            Placeholder="Input taxt here"/>
+        <Entry
+            Placeholder="Input taxt here"/>
+        <Entry
+            Placeholder="Input taxt here"/>
+        <Entry
+            Placeholder="Input taxt here"/>
+        <Entry
+            Placeholder="Input taxt here"/>
+        <Entry
+            Placeholder="Input taxt here"/>
+           
+    </StackLayout>
+    </ScrollView>
+    </ContentPage>

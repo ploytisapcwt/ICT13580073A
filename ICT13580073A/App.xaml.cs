@@ -11,12 +11,13 @@ namespace ICT13580073A
 			var np = new NavigationPage(new NavPage1());
 
 			var tp = new TabbedPage();
-			tp.Children.Add(new TabPage1());
-			tp.Children.Add(new TabPage2());
-			tp.Children.Add(new TabPage3());
+			tp.Children.Add(new TabPage01());
+			tp.Children.Add(new TabPage02());
+			tp.Children.Add(new TabPage03());
 
 			var cp = new CarouselPage();
-			cp.Children.Add(new TabPage1());
+            cp.Children.Add(new 
+            TabPage1());
 			cp.Children.Add(new TabPage2());
 			cp.Children.Add(new TabPage3());
 

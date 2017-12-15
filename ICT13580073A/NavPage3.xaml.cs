@@ -10,13 +10,18 @@ namespace ICT13580073A
         public NavPage3()
         {
             InitializeComponent();
-            backButton.Clicked += BackButton_Clicked;
-            //backToRootButton += 
-        }
+			backButton.Clicked += BackButton_Clicked;
+			backToRootButton.Clicked += BackToRootButton_Clicked;
+		}
 
-        void BackButton_Clicked(object sender, EventArgs e)
-        {
+		void BackButton_Clicked(object sender, EventArgs e)
+		{
+			Navigation.PopAsync();
+		}
 
-        }
-    }
+		void BackToRootButton_Clicked(object sender, EventArgs e)
+		{
+			Navigation.PopToRootAsync();
+		}
+	}
 }

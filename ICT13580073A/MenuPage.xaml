@@ -94,9 +94,21 @@
                     BackgroundColor="Silver" />
 
                  <Button
-                    x:Name="navigationButton"
+                    x:Name="navButton"
                     Text="Navigation Page"
                     BackgroundColor="Silver" />
+
+                <Button
+                    x:Name="tabButton"
+                    Text="Tab Page"
+                    BackgroundColor="Silver" />
+
+                <Button
+                    x:Name="carouselButton"
+                    Text="Carousel Page"
+                    BackgroundColor="Aqua" />
+                
+
 
                 
 
